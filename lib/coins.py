@@ -1788,6 +1788,7 @@ class Berycoin(Coin):
     TX_PER_BLOCK = 10
     RPC_PORT = 9432
     REORG_LIMIT = 800
+    CHUNK_SIZE = 8640
     PEERS = [
         'electrum.berycoin.com s t',
         'electrum.resteemexposure.com s t',
