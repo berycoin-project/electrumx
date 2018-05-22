@@ -62,7 +62,7 @@ class Coin(object):
     # Not sure if these are coin-specific
     RPC_URL_REGEX = re.compile('.+@(\[[0-9a-fA-F:]+\]|[^:]+)(:[0-9]+)?')
     VALUE_PER_COIN = 100000000
-    CHUNK_SIZE = 2016
+    CHUNK_SIZE = 8640
     HASHX_LEN = 11
     BASIC_HEADER_SIZE = 80
     STATIC_BLOCK_HEADERS = True
