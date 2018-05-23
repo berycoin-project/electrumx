@@ -45,7 +45,7 @@ class SessionBase(ServerSession):
     sessions.
     '''
 
-    MAX_CHUNK_SIZE = 8640
+    MAX_CHUNK_SIZE = 2016
     session_counter = itertools.count()
 
     def __init__(self, controller, kind):
